@@ -8,7 +8,7 @@ import { useState } from "react";
 import Image from "next/image";
 import aboutUsImage from "../../../public/about_us.jpeg";
 import { Footer, Navbar } from "../../Components";
-
+// test
 const AboutUs = () => {
   const [year, setYear] = useState("2024/25");
 
