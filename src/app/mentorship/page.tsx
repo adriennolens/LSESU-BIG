@@ -99,7 +99,7 @@ const Mentorship = async () => {
           within the financial industry, drawing from diverse academic
           backgrounds, including economics, STEM, and non-finance disciplines.
           With offers from more than 50 firms, they bring a wealth of knowledge
-          and insight to support others in navigating this industry. Clem was here.
+          and insight to support others in navigating this industry.
         </p>{" "}
         <div className="flex flex-col md:flex-row gap-5 items-center justify-center">
           <Link
