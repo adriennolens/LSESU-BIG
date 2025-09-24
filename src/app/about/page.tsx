@@ -10,7 +10,7 @@ import aboutUsImage from "../../../public/about_us.jpeg";
 import { Footer, Navbar } from "../../Components";
 // test
 const AboutUs = () => {
-  const [year, setYear] = useState("2024/25");
+  const [year, setYear] = useState("2025/26");
 
   return (
     <main className="bg-white">
@@ -35,7 +35,7 @@ const AboutUs = () => {
             <Dropdown
               state={year}
               setState={setYear}
-              options={["2024/25", "2023/24", "2022/23", "2021/22"]}
+              options={["2025/26", "2024/25", "2023/24", "2022/23", "2021/22"]}
             />
           </div>
         </div>

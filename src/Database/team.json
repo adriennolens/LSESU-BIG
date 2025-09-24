@@ -553,7 +553,7 @@
     }
   },
   "2024/25": {
-    "pattern": [3, 2, 2, 2],
+    "pattern": [3, 2, 2, 3],
     "executiveMembers": [
       {
         "email": "T.Joy@lse.ac.uk",
@@ -798,6 +798,157 @@
           "imageLink": "https://utfs.io/f/2JsPsN0kG4dURfbzYOrHdixl2QvP7ytueV0z6ngWSYXo4Ucj",
           "linkedin": "https://www.linkedin.com/in/varmisan-thivagharen/",
           "name": "Varmisan T.",
+          "role": "Technology"
+        }
+      ]
+    }
+  },
+  "2025/26": {
+    "pattern": [3, 3, 2, 2],
+    "executiveMembers": [
+      {
+        "email": "H.Amor@lse.ac.uk",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIdKWwnTy4S6VmOeDXvHE3ZwzT0GKIi4WCxFU1",
+        "linkedin": "https://www.linkedin.com/in/hella-amor-36a960270/",
+        "name": "Hella Amor",
+        "role": "Vice President"
+      }
+    ],
+    "heads": {
+      "Banking": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIjx2eZYi2VdvPAtXz6Y3InNUFBfwTZ1cbmuW7",
+          "linkedin": "https://www.linkedin.com/in/ikeezeanyika/",
+          "name": "Ike Ezeanyika",
+          "role": "Banking"
+        },
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIWcxwTG1rXp1hKxUgtYvZcaAnkEP0Qm6L5yI3",
+          "linkedin": "https://www.linkedin.com/in/maria-belousova-/",
+          "name": "Maria Belousova",
+          "role": "Banking"
+        }
+      ],
+      "Alternative Investments": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKI11WWW1tg2Hq5ieduKYWVZNpIjGTBJPFytmR3",
+          "linkedin": "https://www.linkedin.com/in/oliverwarmington/",
+          "name": "Oliver Warmington",
+          "role": "Alternative Investments"
+        },
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIuNa4mFk50TKINyAhBiGbZF4oS7l2Pvstxkqp",
+          "linkedin": "https://www.linkedin.com/in/aodeyingbo/",
+          "name": "Ayo Odeyingbo",
+          "role": "Alternative Investments"
+        }
+      ],
+      "Markets": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIcTs0SBabkqeS79D3KJlXfoLIMyv0wTzjNEhs",
+          "linkedin": "https://www.linkedin.com/in/ilancohen06/",
+          "name": "Ilan Cohen",
+          "role": "Markets"
+        },
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIvwAx2QLEcAf6NBUp0vdQxMsF2qJXwLnrHytV",
+          "linkedin": "https://www.linkedin.com/in/dylan-dhariwal/",
+          "name": "Dylan Dhariwal",
+          "role": "Markets"
+        }
+      ],
+      "Consulting": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIghn9bBNQP3OlpCxkZ1SuDGBrjhyaiowmMqTU",
+          "linkedin": "https://www.linkedin.com/in/elenahiguchi/",
+          "name": "Elena Higuchi",
+          "role": "Consulting"
+        },
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIM2YbhnPrNy2h9cdGpbB4iU7Rw8oExDjekQ03",
+          "linkedin": "https://www.linkedin.com/in/xanderlim/",
+          "name": "Xander Lim",
+          "role": "Consulting"
+        }
+      ],
+      "Mentorship": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKINxe2ACdaSke8pOcGjYPE2R1KB4dimhbTNZ3n",
+          "linkedin": "https://www.linkedin.com/in/sislam123/",
+          "name": "Syed Islam",
+          "role": "Mentorship"
+        },
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKI8Vx3hq0x7DAjikp6mTGqBusKWbgHFSwhL9l4",
+          "linkedin": "https://www.linkedin.com/in/jaskeerat-basra/",
+          "name": "Jaskeerat Basra",
+          "role": "Mentorship"
+        }
+      ],
+      "Law": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKI1iB0dNtg2Hq5ieduKYWVZNpIjGTBJPFytmR3",
+          "linkedin": "https://www.linkedin.com/in/maria-maniara-b602332a0/",
+          "name": "Maria Maniara",
+          "role": "Law"
+        },
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIXWZDpcKMvNjmXgb8Uz5nBSheiIlYWJZGFDr3",
+          "linkedin": "https://www.linkedin.com/in/kangziyuan/",
+          "name": "Zi Yuan Kang",
+          "role": "Law"
+        }
+      ],
+      "Entrepreneurship & VC": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKITPUH4Uu0KFYP9h8Z4wkAdWfnGDiEBmgjtV2I",
+          "linkedin": "https://www.linkedin.com/in/nour-samman-b1ab15269/",
+          "name": "Nour Samman",
+          "role": "Entrepreneurship & VC"
+        },
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIcleUCgabkqeS79D3KJlXfoLIMyv0wTzjNEhs",
+          "linkedin": "https://www.linkedin.com/in/alejandra-melcon-carrasco-0085a1274/",
+          "name": "Alejandra Melcon Carrasco",
+          "role": "Entrepreneurship & VC"
+        }
+      ],
+      "Marketing": [
+        {
+          "email": "",
+          "imageLink": "https://utfs.io/f/564c4449-6eee-4756-a53e-abebe19e06eb-d36f4d.png",
+          "linkedin": "https://www.linkedin.com/in/wuangel-work/",
+          "name": "Angel Wu",
+          "role": "Marketing"
+        },
+        {
+          "email": "",
+          "imageLink": "https://utfs.io/f/564c4449-6eee-4756-a53e-abebe19e06eb-d36f4d.png",
+          "linkedin": "https://www.linkedin.com/in/boris-casano/",
+          "name": "Boris Casano",
+          "role": "Marketing"
+        }
+      ],
+      "Technology": [
+        {
+          "email": "",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIewk5o08WnCX3qcxrfRtVjNHwuizdADsZP6Mb",
+          "linkedin": "https://www.linkedin.com/in/adrien-nolens-liu/",
+          "name": "Adrien Nolens-Liu",
           "role": "Technology"
         }
       ]
