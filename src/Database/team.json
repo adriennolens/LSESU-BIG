@@ -804,7 +804,7 @@
     }
   },
   "2025/26": {
-    "pattern": [3, 3, 2, 2],
+    "pattern": [3, 2, 3, 2],
     "executiveMembers": [
       {
         "email": "H.Amor@lse.ac.uk",
@@ -812,6 +812,69 @@
         "linkedin": "https://www.linkedin.com/in/hella-amor-36a960270/",
         "name": "Hella Amor",
         "role": "Vice President"
+      },
+      {
+        "email": "f.d.turrell@lse.ac.uk",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIvfAtYMLEcAf6NBUp0vdQxMsF2qJXwLnrHytV",
+        "linkedin": "https://www.linkedin.com/in/felixturrell1710/",
+        "name": "Felix Turrell",
+        "role": "President"
+      },
+      {
+        "email": "j.mighten@lse.ac.uk",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIS2KgwtrFsA5YUcSe1zRQamTIPVy7oXZWlLf4",
+        "linkedin": "https://www.linkedin.com/in/jadenmighten/",
+        "name": "Jaden Mighten",
+        "role": "Vice President"
+      },
+      {
+        "email": "",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIOK111jV7F8HGks1hufldtDwgBoeEXNAxiZRI",
+        "linkedin": "https://www.linkedin.com/in/aryan-sharma-as-as/",
+        "name": "Aryan Sharma",
+        "role": "Treasurer"
+      },
+      {
+        "email": "",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIPtTSwJFW1gB9VjUEJQ8fIxNFGpCqmalwSXyk",
+        "linkedin": "https://www.linkedin.com/in/andreisosnin/",
+        "name": "Andrei Sosnin",
+        "role": "Secretary"
+      },
+      {
+        "email": "",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIVKLFY1qRIEryw6kijSNdPcAbpGlM7n8TaB09",
+        "linkedin": "https://www.linkedin.com/in/emilyagrichardson/",
+        "name": "Emily Richardson",
+        "role": "Head of Corporate Relations"
+      },
+      {
+        "email": "",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIu6XlEok50TKINyAhBiGbZF4oS7l2Pvstxkqp",
+        "linkedin": "https://www.linkedin.com/in/kunjal-gopani/",
+        "name": "Kunjal Gopani",
+        "role": "Head of External Relations"
+      },
+      {
+        "email": "",
+        "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKI6HqPlgSsqNPOXhI7EHwDmA3LeYG8l2jWJ9Rc",
+        "linkedin": "https://www.linkedin.com/in/rupin-ramesh/",
+        "name": "Rupin Ramesh",
+        "role": "Head of BIG Conversations"
+      },
+      {
+        "email": "T.Joy@lse.ac.uk",
+        "imageLink": "https://utfs.io/f/2JsPsN0kG4dUrLP5cayB8TPaykM2KQxCl3p5LYHI6rRFnV9o",
+        "linkedin": "https://www.linkedin.com/in/thomson-joy/",
+        "name": "Thomson Joy",
+        "role": "Chairman"
+      },
+      {
+        "email": "n.solomon1@lse.ac.uk",
+        "imageLink": "https://utfs.io/f/P5zDMjQIG1bO7jB2SuTJkpxTwWLZhuzCKAbBsH8MGPRoaD5S",
+        "linkedin": "https://www.linkedin.com/in/nahom-solomon11/",
+        "name": "Nahom Solomon",
+        "role": "Chairman"
       }
     ],
     "heads": {
@@ -930,14 +993,14 @@
       "Marketing": [
         {
           "email": "",
-          "imageLink": "https://utfs.io/f/564c4449-6eee-4756-a53e-abebe19e06eb-d36f4d.png",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIvSzfYJLEcAf6NBUp0vdQxMsF2qJXwLnrHytV",
           "linkedin": "https://www.linkedin.com/in/wuangel-work/",
           "name": "Angel Wu",
           "role": "Marketing"
         },
         {
           "email": "",
-          "imageLink": "https://utfs.io/f/564c4449-6eee-4756-a53e-abebe19e06eb-d36f4d.png",
+          "imageLink": "https://vjrzvwb3k7.ufs.sh/f/u6Cn6wk50TKIvkXXvJLEcAf6NBUp0vdQxMsF2qJXwLnrHytV",
           "linkedin": "https://www.linkedin.com/in/boris-casano/",
           "name": "Boris Casano",
           "role": "Marketing"
