@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Navbar from "../../Components/Navbar";
 import { Number, Footer } from "../../Components";
@@ -8,9 +10,85 @@ import Image from "next/image";
 import trackerImage from "../../../public/trackerImage.jpg";
 import hirehuubImage from "../../../public/hirehuub.png";
 import Link from "next/link";
+import Autoplay from "embla-carousel-autoplay";
+import { Card, CardContent } from "@/Components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/Components/ui/carousel";
 
+function AutoCarousel() {
+  return (
+    <Carousel
+      opts={{
+        align: "start",
+        loop: true,
+      }}
+      plugins={[
+        Autoplay({
+          delay: 3000,
+          stopOnInteraction: false,
+        }),
+      ]}
+      className="w-full"
+    >
+      <CarouselContent className="flex">
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex items-center justify-center p-8">
+                <span className="text-3xl font-semibold">Exclusive 14 day <b>free access</b></span>
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex items-center justify-center p-8">
+                <span className="text-3xl font-semibold"><b>Exclusive</b> discount codes</span>
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex items-center justify-center p-8">
+                <span className="text-3xl font-semibold">The chance to win <b>cash prizes</b></span>
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex items-center justify-center p-8">
+                <span className="text-3xl font-semibold">Higher visibility to <b>partnered recruiters</b></span>
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex items-center justify-center p-8">
+                <span className="text-3xl font-semibold">Follow <b>@hirehuub</b> on Instagram</span>
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious className="absolute w-10 h-10 -left-8 top-1/2 -translate-y-1/2 z-10 [&>span:not(.sr-only)]:hidden" />
+      <CarouselNext className="absolute w-10 h-10 -right-12 top-1/2 -translate-y-1/2 z-10 [&>span:not(.sr-only)]:hidden" />
+    </Carousel>
+  );
+}
 
-const Tracker = async () => {
+const Tracker = () => {
   return (
     <main className="bg-white">
       <header className="relative">
@@ -93,7 +171,10 @@ const Tracker = async () => {
         </div>
       </section>
       <section className="pt-0 py-16 text-center">
-      <h1 className="text-4xl pt-16">What you get access to.</h1>
+        <h1 className="text-4xl pt-16">What you get access to.</h1>
+        <div className="w-[80%] mx-auto relative px-8">
+          <AutoCarousel />
+        </div>
       </section>
       <Footer />
     </main>
