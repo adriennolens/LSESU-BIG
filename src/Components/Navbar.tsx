@@ -128,9 +128,9 @@ const Navbar = ({
         >
           Join Us
         </button>
-        <div>
+        {/* <div>
           <Profile />
-        </div>
+        </div> */}
         <Menu setScroll={setScroll} />
       </div>
     </div>
