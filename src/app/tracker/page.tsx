@@ -36,47 +36,47 @@ function AutoCarousel() {
       className="w-full"
     >
       <CarouselContent className="flex">
-        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+        <CarouselItem className="ms:basis-full md:basis-1/2 lg:basis-1/3 flex-shrink-0">
           <div className="p-1">
             <Card>
               <CardContent className="flex items-center justify-center p-8">
-                <span className="text-3xl font-semibold">Exclusive 14 day <b>free access</b></span>
+                <span className="break:text-3xl ms:text-2xl font-semibold">Exclusive 14 day <b>free access</b></span>
               </CardContent>
             </Card>
           </div>
         </CarouselItem>
-        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+        <CarouselItem className="ms:basis-full md:basis-1/2 lg:basis-1/3 flex-shrink-0">
           <div className="p-1">
             <Card>
               <CardContent className="flex items-center justify-center p-8">
-                <span className="text-3xl font-semibold"><b>Exclusive</b> discount codes</span>
+                <span className="break:text-3xl ms:text-2xl font-semibold"><b>Exclusive</b> discount codes</span>
               </CardContent>
             </Card>
           </div>
         </CarouselItem>
-        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+        <CarouselItem className="ms:basis-full md:basis-1/2 lg:basis-1/3 flex-shrink-0">
           <div className="p-1">
             <Card>
               <CardContent className="flex items-center justify-center p-8">
-                <span className="text-3xl font-semibold">The chance to win <b>cash prizes</b></span>
+                <span className="break:text-3xl ms:text-2xl font-semibold">The chance to win <b>cash prizes</b></span>
               </CardContent>
             </Card>
           </div>
         </CarouselItem>
-        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+        <CarouselItem className="ms:basis-full md:basis-1/2 lg:basis-1/3 flex-shrink-0">
           <div className="p-1">
             <Card>
               <CardContent className="flex items-center justify-center p-8">
-                <span className="text-3xl font-semibold">Higher visibility to <b>partnered recruiters</b></span>
+                <span className="break:text-3xl ms:text-2xl font-semibold">Higher visibility to <b>partnered recruiters</b></span>
               </CardContent>
             </Card>
           </div>
         </CarouselItem>
-        <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex-shrink-0">
+        <CarouselItem className="ms:basis-full md:basis-1/2 lg:basis-1/3 flex-shrink-0">
           <div className="p-1">
             <Card>
               <CardContent className="flex items-center justify-center p-8">
-                <span className="text-3xl font-semibold">Follow <b>@hirehuub</b> on Instagram</span>
+                <span className="break:text-3xl ms:text-2xl font-semibold">Follow <b>@hirehuub</b> on Instagram</span>
               </CardContent>
             </Card>
           </div>
@@ -102,7 +102,7 @@ const Tracker = () => {
           BIG Tracker
         </h1>
       </header>
-      <section className="pt-0">
+      <section className="pt-0 px-10">
         <h1 className="text-background pt-16 mb-0 bg-white text-3xl lg:text-3xl font-bold text-center flex-1">
             <span className="block">
               LSESU BIG is excited to announce the release of our 
@@ -129,7 +129,7 @@ const Tracker = () => {
           </Link>
         </div>
       </section>
-      <section className="pt-0 bg-background text-white pb-1 text-center">
+      <section className="pt-0 px-10 bg-background text-white pb-1 text-center">
         <h1 className="text-4xl pt-16">What we offer.</h1>
         <p className="text-2xl">This year, the BIG x HireHuub platform becomes your one-stop shop for all things recruitment - 
           <br></br>from discovering opportunities to preparing and tracking every step of the process.</p>
