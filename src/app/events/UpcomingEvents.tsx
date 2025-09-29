@@ -7,7 +7,7 @@ import { EventInterface } from "../../Types";
 const UpcomingEvent = ({ event }: { event: EventInterface }) => {
   return (
     <div className="flex flex-col break:flex-row  border border-gray-300 rounded-lg overflow-hidden w-max break:w-full items-center">
-      <div className="w-[300px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-gray-600 flex-shrink-0">
+      <div className="w-[300px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-gray-200 flex-shrink-0">
         {event.ImageLink ? (
           <img
             src={event.ImageLink}
@@ -15,7 +15,7 @@ const UpcomingEvent = ({ event }: { event: EventInterface }) => {
             className="w-full h-full object-cover"
           />
         ) : (
-          <div className="w-full h-full bg-gray-600"></div>
+          <div className="w-full h-full bg-gray-400"></div>
         )}
       </div>
       <div className="p-5 flex flex-col flex-grow">
