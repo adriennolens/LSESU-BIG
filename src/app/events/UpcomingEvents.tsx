@@ -21,6 +21,7 @@ const UpcomingEvent = ({ event }: { event: EventInterface }) => {
       <div className="p-5 flex flex-col flex-grow">
         <div className="text-lg text-gray-500 py-2">{`${event.Month} ${event.Day}`}</div>
         <div className="text-xl md:text-2xl font-bold mt-2 py-2">{event.Title}</div>
+        <div className="text-xl md:text-xl font-bold mt-2 py-2">{event.Position} | {event.Firm}</div>
 
         <span className="text-lg py-2">{event.Speakers}</span>
         <div className="text-md md:text-lg text-gray-700">{event.Venue}</div>
