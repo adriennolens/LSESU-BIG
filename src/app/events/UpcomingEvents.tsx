@@ -19,10 +19,10 @@ const UpcomingEvent = ({ event }: { event: EventInterface }) => {
         )}
       </div>
       <div className="p-5 flex flex-col flex-grow">
-        <div className="text-lg text-gray-500">{`${event.Month} ${event.Day}`}</div>
-        <div className="text-xl md:text-2xl font-bold mt-2">{event.Title}</div>
+        <div className="text-lg text-gray-500 py-2">{`${event.Month} ${event.Day}`}</div>
+        <div className="text-xl md:text-2xl font-bold mt-2 py-2">{event.Title}</div>
 
-        <span className="text-lg">{event.Speakers}</span>
+        <span className="text-lg py-2">{event.Speakers}</span>
         <div className="text-md md:text-lg text-gray-700">{event.Venue}</div>
       </div>
       <div className="p-5">
@@ -52,7 +52,7 @@ const UpcomingEvents = () => {
       <h1 className="text-3xl lg:text-4xl font-bold text-center mb-10 text-gray-900">
         Upcoming Events
       </h1>
-      <div className="flex flex-col items-center px-10 md:px-20 lg:px-40 xl:px-60 2xl:px-96">
+      <div className="flex flex-col items-center px-10 md:px-20 lg:px-40 xl:px-60 2xl:px-80">
         {upcomingEvents.length != 0 &&
           upcomingEvents.map((upcomingEvent, idx: number) => (
             <UpcomingEvent event={upcomingEvent} key={idx} />
