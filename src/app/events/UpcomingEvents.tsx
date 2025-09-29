@@ -6,8 +6,8 @@ import { EventInterface } from "../../Types";
 
 const UpcomingEvent = ({ event }: { event: EventInterface }) => {
   return (
-    <div className="flex flex-col break:flex-row border border-gray-300 rounded-lg overflow-hidden w-11/12 break:w-full items-center my-2">
-      <div className="w-[300px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-gray-200 flex-shrink-0">
+    <div className="flex flex-col break:flex-row border border-gray-300 rounded-lg overflow-hidden w-11/12 break:w-full items-center">
+      <div className="w-[200px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-#F9FAFB flex-shrink-0">
         {event.ImageLink ? (
           <img
             src={event.ImageLink}
@@ -19,7 +19,7 @@ const UpcomingEvent = ({ event }: { event: EventInterface }) => {
         )}
       </div>
 
-      <div className="p-5 flex flex-col flex-grow">
+      <div className="p-5 flex flex-col flex-grow w-full">
         <div className="text-lg text-gray-500 py-2">{`${event.Month} ${event.Day}`}</div>
         <div className="text-xl md:text-2xl font-bold mt-2 py-2">{event.Title}</div>
         <div className="text-xl md:text-xl font-bold mt-2 py-2">
@@ -72,7 +72,7 @@ const UpcomingEvents = () => {
         Upcoming Events
       </h1>
 
-      <div className="flex flex-col items-center px-10 md:px-20 lg:px-40 xl:px-60 2xl:px-80">
+      <div className="flex flex-col items-center px-10 md:px-20 lg:px-40 xl:px-60 2xl:px-80 gap-4">
         {currentEvents.length > 0 &&
           currentEvents.map((upcomingEvent, idx) => (
             <UpcomingEvent event={upcomingEvent} key={idx} />

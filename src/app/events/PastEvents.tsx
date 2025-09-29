@@ -7,7 +7,7 @@ import { fetchPastEvents } from "@/Database/fetchPastEvents";
 const Event = ({ event }: { event: PastEventInterface }) => {
   return (
     <div className="flex flex-col break:flex-row  border border-gray-300 rounded-lg overflow-hidden w-11/12 break:w-full items-center">
-      <div className="w-[300px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-gray-600 flex-shrink-0">
+      <div className="w-[250px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-gray-600 flex-shrink-0">
         {event.ImageLink ? (
           <img
             src={event.ImageLink}
@@ -18,7 +18,8 @@ const Event = ({ event }: { event: PastEventInterface }) => {
           <div className="w-full h-full bg-gray-600"></div>
         )}
       </div>
-      <div className="p-5 flex flex-col flex-grow">
+
+      <div className="p-5 flex flex-col flex-grow w-full">
         <div className="text-lg text-gray-500">{`${event.Month} ${event.Day} ${event.Year}`}</div>
         <div className="text-xl md:text-2xl mt-2 flex flex-col">
           <span className="font-bold text-xl">{event.Title}</span>
@@ -107,7 +108,7 @@ const PastEvents = () => {
       </div>
 
       {/* Events for selected year */}
-      <div className="flex flex-col items-center px-10 md:px-20 lg:px-40 xl:px-60 2xl:px-96 gap-10">
+      <div className="flex flex-col items-center px-10 md:px-20 lg:px-40 xl:px-60 2xl:px-80 gap-4">
         {currentEvents.map((event: PastEventInterface, idx: number) => (
           <Event key={idx} event={event} />
         ))}
