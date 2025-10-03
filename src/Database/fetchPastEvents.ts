@@ -50,7 +50,7 @@ const segregatePastEvents = (pastEvents: PastEventInterface[]) => {
 
 export const fetchPastEvents = async () => {
   const pastEventsURL =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTI0Vg11rDHrZhy-jWTz4YCUlnwryU4Iu4bE6PM0x1x183iHh40AnlCJxhHEKEH6moZABZJprhoZaku/pub?gid=0&single=true&output=csv";
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7_vuL9hEs__RLf9fT6s1eLuX9NFk0WjDi7jYWn8grgKIOzwvQ0IM6HhDLj3maDQgROq9-dXpRY1p3/pub?gid=78096891&single=true&output=csv";
   const CSVData = await fetchCSVData(pastEventsURL);
   const result = segregatePastEvents(CSVData.data);
   return { segregatedEvents: result.parsedEvents, years: result.years };
@@ -58,7 +58,7 @@ export const fetchPastEvents = async () => {
 
 export const fetchUpcomingEvents = async () => {
   const upcomingEventsURL =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7_vuL9hEs__RLf9fT6s1eLuX9NFk0WjDi7jYWn8grgKIOzwvQ0IM6HhDLj3maDQgROq9-dXpRY1p3/pub?output=csv";
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7_vuL9hEs__RLf9fT6s1eLuX9NFk0WjDi7jYWn8grgKIOzwvQ0IM6HhDLj3maDQgROq9-dXpRY1p3/pub?gid=0&single=true&output=csv";
   const CSVData = await fetchCSVData(upcomingEventsURL);
   return CSVData.data;
 };
