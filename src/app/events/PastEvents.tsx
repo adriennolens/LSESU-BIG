@@ -61,7 +61,7 @@ const YearButton = ({
 };
 
 const PastEvents = () => {
-  const [index, setIndex] = useState(2023); // current year index
+  const [index, setIndex] = useState(2025); // current year index
   const [pastEvents, setPastEvents] = useState<Record<number, PastEventInterface[]>>({});
   const [years, setYears] = useState<number[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
