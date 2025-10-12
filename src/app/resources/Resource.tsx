@@ -20,7 +20,7 @@ const Resource = ({ link, thumbnail }: ResourceInterface) => {
           {thumbnail ? (
             <Image
               src={thumbnail}
-              className="w-[230px] sm:w-[250px] md:w-[300px] lg:w-[350px] xl:w-[400px] aspect-[7/8]"
+              className="w-[230px] sm:w-[250px] md:w-[300px] lg:w-[350px] xl:w-[400px]"
               width={400}
               height={400}
               alt="Resource Thumbnail"

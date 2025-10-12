@@ -90,4 +90,5 @@
 
 button:hover {
   transform: scale(1.05);
+  background: #10224d;
 }
