@@ -807,18 +807,18 @@
     "pattern": [3, 2, 3, 2],
     "executiveMembers": [
       {
-        "email": "H.Amor@lse.ac.uk",
-        "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/hella.jpeg",
-        "linkedin": "https://www.linkedin.com/in/hella-amor-36a960270/",
-        "name": "Hella Amor",
-        "role": "Vice President"
-      },
-      {
         "email": "f.d.turrell@lse.ac.uk",
         "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/felix.png",
         "linkedin": "https://www.linkedin.com/in/felixturrell1710/",
         "name": "Felix Turrell",
         "role": "President"
+      },
+      {
+        "email": "H.Amor@lse.ac.uk",
+        "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/hella.jpeg",
+        "linkedin": "https://www.linkedin.com/in/hella-amor-36a960270/",
+        "name": "Hella Amor",
+        "role": "Vice President"
       },
       {
         "email": "j.mighten@lse.ac.uk",
