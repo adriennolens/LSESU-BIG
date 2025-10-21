@@ -20,6 +20,11 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: 'https',
+        hostname: 'nywunuaiusbuadby.public.blob.vercel-storage.com',
+        pathname: '/**',
+      },
     ],
   },
   typescript: {
