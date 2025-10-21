@@ -10,6 +10,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "**.ufs.sh",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "s.gravatar.com",
         port: "",
         pathname: "/**",

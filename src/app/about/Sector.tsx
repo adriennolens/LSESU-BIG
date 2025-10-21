@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import { MemberType, SectorInterface } from "../../Types";
@@ -6,11 +7,16 @@ import { MemberType, SectorInterface } from "../../Types";
 const SectorMember = ({ imageLink, name, role, linkedin }: MemberType) => {
   return (
     <div className="my-4 flex flex-col items-center rounded-lg text-white text-center w-max break:w-48">
-      <img
-        src={imageLink}
-        alt={name}
-        className="rounded-full w-32 h-32 lg:w-36 lg:h-36 xl:w-40 xl:h-40 2xl:w-48 2xl:h-48 object-cover shadow-lg"
-      />
+      <div className="relative w-32 h-32 lg:w-36 lg:h-36 xl:w-40 xl:h-40 2xl:w-48 2xl:h-48">
+        <Image
+          src={imageLink}
+          alt={name}
+          fill
+          className="rounded-full object-cover shadow-lg"
+          sizes="(max-width: 768px) 128px, (max-width: 1280px) 160px, 192px"
+          priority
+        />
+      </div>
       <div className="flex flex-col py-4 items-center">
         <p className="text-xl lg:text-xl flex items-center gap-2 justify-center font-semibold whitespace-nowrap">
           {name}

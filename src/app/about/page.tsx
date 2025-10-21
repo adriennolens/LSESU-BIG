@@ -31,7 +31,7 @@ const AboutUs = () => {
           <h2 className="text-3xl lg:text-4xl font-bold text-center my-10 flex-1">
             Executive Committee
           </h2>
-          <div className="">
+          <div className="relative z-50">
             <Dropdown
               state={year}
               setState={setYear}
