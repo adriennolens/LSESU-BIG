@@ -51,7 +51,7 @@ export default function Home() {
             }
           />
           <Number
-            text="9,900+ followers"
+            text="10K+ followers"
             icon={<FaUserFriends />}
             description={
               "Our social media presence ensures our members are always up to date with upcoming events"
