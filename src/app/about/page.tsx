@@ -68,6 +68,32 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      {year === "2025/26" && (
+        <section className="pt-5">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center mt-10 mb-10">
+            Project Venture Heads
+          </h2>
+          <hr className="border-gray-300 my-4" />
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 pt-5 pb-20 justify-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 w-screen gap-2 px-10 xl:px-20">
+              {Object.keys(
+                team["2025/26"]["projectVentureHeads"]
+              ).map((role: any, idx: number) =>
+                team["2025/26"]["projectVentureHeads"][role].length > 0 && (
+                  <Sector
+                    key={idx}
+                    title={role}
+                    sectorMembers={
+                      team["2025/26"]["projectVentureHeads"][role]
+                    }
+                  />
+                )
+              )}
+            </div>
+          </div>
+        </section>
+      )}
       <Footer />
     </main>
   );

@@ -1015,6 +1015,72 @@
           "role": "Technology"
         }
       ]
+    },
+    "projectVentureHeads": {
+      "M&A Group": [
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/tejjas.png",
+          "linkedin": "https://www.linkedin.com/in/tejjas-kumar/",
+          "name": "Tejjas Kumar",
+          "role": "M&A Group"
+        },
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/mark.png",
+          "linkedin": "https://www.linkedin.com/in/mark-liu-b30688305/",
+          "name": "Mark Liu",
+          "role": "M&A Group"
+        }
+      ],
+      "BIG Capital": [
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/salman.png",
+          "linkedin": "https://www.linkedin.com/in/salmanhaque7/",
+          "name": "Salman Haque",
+          "role": "BIG Capital"
+        },
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/amelia.png",
+          "linkedin": "https://www.linkedin.com/in/amelia-drayson-563b69281/",
+          "name": "Amelia Drayson",
+          "role": "BIG Capital"
+        }
+      ],
+      "London Strategy Group": [
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/saadad.png",
+          "linkedin": "https://www.linkedin.com/in/saadad-choudhury/",
+          "name": "Saadad Choudhury",
+          "role": "London Strategy Group"
+        },
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/ethan.png",
+          "linkedin": "https://www.linkedin.com/in/ethanhanley/",
+          "name": "Ethan Hanley",
+          "role": "London Strategy Group"
+        }
+      ],
+      "Focal Point": [
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/mark.png",
+          "linkedin": "https://www.linkedin.com/in/mark-liu-b30688305/",
+          "name": "Mark Liu",
+          "role": "Focal Point"
+        },
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/leo.png",
+          "linkedin": "https://www.linkedin.com/in/leo-zhang-a00683221/",
+          "name": "Leo Zhang",
+          "role": "Focal Point"
+        }
+      ]
     }
   }
 }
