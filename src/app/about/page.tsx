@@ -27,20 +27,21 @@ const AboutUs = () => {
       </header>
 
       <section className="pt-10">
-        <div className="max-w-7xl mx-auto relative px-10 my-10 h-20 flex items-center">
-          <h2 className="absolute left-1/2 -translate-x-1/2 text-3xl lg:text-4xl font-bold text-center">
-            Executive Committee
-          </h2>
-          <div className="ml-auto z-10">
-            <Dropdown
-              state={year}
-              setState={setYear}
-              options={["2025/26", "2024/25", "2023/24", "2022/23", "2021/22"]}
-              size="small"
-            />
+        <div className="max-w-7xl mx-auto px-10 my-10">
+          <div className="relative flex flex-col-reverse items-center gap-4 md:h-20 md:flex-row md:justify-center">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center">
+              Executive Committee
+            </h2>
+            <div className="md:absolute md:right-0">
+              <Dropdown
+                state={year}
+                setState={setYear}
+                options={["2025/26", "2024/25", "2023/24", "2022/23", "2021/22"]}
+                size="small"
+              />
+            </div>
           </div>
         </div>
-
         <hr className="border-gray-300 my-4" />
         <Football
           members={team[year as keyof typeof team]["executiveMembers"]}

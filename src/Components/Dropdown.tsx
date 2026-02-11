@@ -48,7 +48,7 @@ const Dropdown = ({
           onClick={() => setOpen(!open)}
         >
           {state}
-          <FaChevronDown className="w-6 h-6 text-white" />
+          <FaChevronDown className="md:w-6 md:h-6 w-4 h-4 text-white" />
         </button>
 
         <ul
