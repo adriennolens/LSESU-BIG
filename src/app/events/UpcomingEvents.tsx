@@ -66,6 +66,7 @@ const UpcomingEvents = () => {
 
   const totalPages = Math.ceil(upcomingEvents.length / eventsPerPage);
 
+  if (upcomingEvents.length === 0) return null;
   return (
     <section className="bg-gray-50 pt-20 pb-10">
       <h1 className="text-3xl lg:text-4xl font-bold text-center mb-10 text-gray-900">

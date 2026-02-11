@@ -36,14 +36,14 @@ const segregatePastEvents = (pastEvents: PastEventInterface[]) => {
     events.sort((a, b) => {
       const aMonthIdx = monthIndex(a.Month);
       const bMonthIdx = monthIndex(b.Month);
-
-      // Adjust months so Sep-Dec come first, Jan-Aug come after
+    
       const aAdjusted = aMonthIdx >= monthIndex("Sep") ? aMonthIdx : aMonthIdx + 12;
       const bAdjusted = bMonthIdx >= monthIndex("Sep") ? bMonthIdx : bMonthIdx + 12;
-
+    
       if (aAdjusted !== bAdjusted) return bAdjusted - aAdjusted;
-      return Number(a.Day) - Number(b.Day);
+      return Number(b.Day) - Number(a.Day);
     });
+    console.log("Sorted order:", events.map(e => `${e.Month} ${e.Day}`));
   });
 
   const years = Object.keys(parsedEvents)
