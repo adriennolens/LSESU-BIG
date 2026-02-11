@@ -28,17 +28,23 @@ const Dropdown = ({
   state,
   setState,
   options,
+  size = "default",
 }: {
   state: string;
   setState: React.Dispatch<React.SetStateAction<string>>;
   options: string[];
+  size?: "small" | "default";
 }) => {
   const [open, setOpen] = useState(false);
+  const sizeStyles = {
+    small: "px-3 py-2 text-sm md:px-6 md:py-3 md:text-lg",
+    default: "px-6 py-3 text-lg md:px-8 md:py-4 md:text-xl",
+  };
   return (
     <div>
       <div className="relative">
         <button
-          className="inline-flex items-center w-max gap-2 rounded-md bg-background text-white px-6 py-3 text-lg font-semibold shadow-lg focus:outline-none"
+          className={`inline-flex items-center gap-2 rounded-md bg-background text-white font-semibold shadow-lg focus:outline-none ${sizeStyles[size]}`}
           onClick={() => setOpen(!open)}
         >
           {state}
@@ -46,7 +52,7 @@ const Dropdown = ({
         </button>
 
         <ul
-          className={`origin-top absolute top-full w-max right-0 mt-2 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none transition-all duration-200 ease-out overflow-hidden ${
+          className={`origin-top absolute top-full w-max right-0 mt-2 rounded-lg shadow-lg bg-white focus:outline-none transition-all duration-200 ease-out overflow-hidden ${
             open ? `h-[${60 * options.length}px]` : "h-0 ring-0"
           }`}
         >

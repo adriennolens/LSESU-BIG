@@ -7,7 +7,7 @@ import { fetchPastEvents } from "@/Database/fetchPastEvents";
 const Event = ({ event }: { event: PastEventInterface }) => {
   return (
     <div className="flex flex-col break:flex-row  border border-gray-300 rounded-lg overflow-hidden w-11/12 break:w-full items-center">
-      <div className="w-[250px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-gray-600 flex-shrink-0">
+      <div className="w-[250px] break:w-[175px] md:w-[200px] lg:w-[250px] aspect-square bg-white-600 flex-shrink-0">
         {event.ImageLink ? (
           <img
             src={event.ImageLink}

@@ -27,15 +27,16 @@ const AboutUs = () => {
       </header>
 
       <section className="pt-10">
-        <div className="max-w-7xl mx-auto relative flex flex-col md:flex-row px-10 justify-center items-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center my-10 flex-1">
+        <div className="max-w-7xl mx-auto relative px-10 my-10 h-20 flex items-center">
+          <h2 className="absolute left-1/2 -translate-x-1/2 text-3xl lg:text-4xl font-bold text-center">
             Executive Committee
           </h2>
-          <div className="relative z-50">
+          <div className="ml-auto">
             <Dropdown
               state={year}
               setState={setYear}
               options={["2025/26", "2024/25", "2023/24", "2022/23", "2021/22"]}
+              size="small"
             />
           </div>
         </div>

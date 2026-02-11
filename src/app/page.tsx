@@ -71,7 +71,7 @@ export default function Home() {
       <SpeakerShowcase showcaseSpeakers={speakers.images} />
       <Sponsors sponsors={sponsors.sponsors} />
       <MembershipBenefits />
-      <section className="bg-white">
+      <section className="bg-white pb-40">
         <h1>Alumni Destinations</h1>
         <div className="">
           <div className="grid mm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 justify-center mx-auto w-max gap-4">
@@ -81,10 +81,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-white text-black border-b border-white mb-10">
+      {/* <section className="bg-white text-black border-b border-white mb-10">
         <h1>Gallery</h1>
         <Gallery events={gallery.homepage} scrollToggle={5200} />
-      </section>
+      </section> */}
       <Footer />
     </main>
   );

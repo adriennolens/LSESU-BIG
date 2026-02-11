@@ -20,32 +20,37 @@ const PRECEDENCE = [
 const monthIndex = (month: string): number => PRECEDENCE.indexOf(month);
 
 const segregatePastEvents = (pastEvents: PastEventInterface[]) => {
-  const parsedEvents: Record<string, PastEventInterface[]> = {};
+  const parsedEvents: Record<number, PastEventInterface[]> = {};
 
-  // Get unique years as numbers and sort them (optional)
-  const uniqueYears = Array.from(
-    new Set(pastEvents.map((event) => Number(event.Year))),
-  ).sort((a, b) => a - b);
+  pastEvents.forEach((event) => {
+    const eventYear = Number(event.Year);
+    const monthIdx = monthIndex(event.Month);
 
-  uniqueYears.forEach((year) => {
-    // Use the year as the key (as a string)
-    parsedEvents[year] = pastEvents.filter((event) => {
-      const eventYear = Number(event.Year);
-      const eventMonthIdx = monthIndex(event.Month);
+    const academicYearStart = monthIdx < monthIndex("Sep") ? eventYear - 1 : eventYear;
 
-      // For the academic year starting in `year`:
-      if (eventYear === year) {
-        // The event must be in September or later in the same year.
-        return eventMonthIdx >= monthIndex("Sep");
-      } else if (eventYear === year + 1) {
-        // The event must be before September in the next year.
-        return eventMonthIdx < monthIndex("Sep");
-      }
-      return false;
+    if (!parsedEvents[academicYearStart]) parsedEvents[academicYearStart] = [];
+    parsedEvents[academicYearStart].push(event);
+  });
+
+  Object.values(parsedEvents).forEach((events) => {
+    events.sort((a, b) => {
+      const aMonthIdx = monthIndex(a.Month);
+      const bMonthIdx = monthIndex(b.Month);
+
+      // Adjust months so Sep-Dec come first, Jan-Aug come after
+      const aAdjusted = aMonthIdx >= monthIndex("Sep") ? aMonthIdx : aMonthIdx + 12;
+      const bAdjusted = bMonthIdx >= monthIndex("Sep") ? bMonthIdx : bMonthIdx + 12;
+
+      if (aAdjusted !== bAdjusted) return bAdjusted - aAdjusted;
+      return Number(a.Day) - Number(b.Day);
     });
   });
 
-  return { parsedEvents: parsedEvents, years: uniqueYears };
+  const years = Object.keys(parsedEvents)
+    .map(Number)
+    .sort((a, b) => a - b);
+
+  return { parsedEvents, years };
 };
 
 export const fetchPastEvents = async () => {
