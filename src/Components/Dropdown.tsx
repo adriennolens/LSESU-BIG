@@ -52,7 +52,7 @@ const Dropdown = ({
         </button>
 
         <ul
-          className={`origin-top absolute top-full w-max right-0 mt-2 rounded-lg shadow-lg bg-white focus:outline-none transition-all duration-200 ease-out overflow-hidden ${
+          className={`origin-top absolute top-full w-max right-0 mt-2 rounded-lg shadow-lg bg-white focus:outline-none transition-all duration-200 ease-out overflow-hidden z-50 ${
             open ? `h-[${60 * options.length}px]` : "h-0 ring-0"
           }`}
         >
