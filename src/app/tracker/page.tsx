@@ -82,8 +82,18 @@ function AutoCarousel() {
           </div>
         </CarouselItem>
       </CarouselContent>
-      <CarouselPrevious className="absolute w-10 h-10 -left-8 top-1/2 -translate-y-1/2 z-10 [&>span:not(.sr-only)]:hidden" />
-      <CarouselNext className="absolute w-10 h-10 -right-12 top-1/2 -translate-y-1/2 z-10 [&>span:not(.sr-only)]:hidden" />
+      <CarouselPrevious
+        className="absolute w-10 h-10 -left-8 top-1/2 
+        -translate-y-1/2 hover:-translate-y-1/2 active:-translate-y-1/2
+        z-10 [&>span:not(.sr-only)]:hidden"
+      />
+
+      <CarouselNext
+        className="absolute w-10 h-10 -right-12 top-1/2 
+        -translate-y-1/2 hover:-translate-y-1/2 active:-translate-y-1/2
+        z-10 [&>span:not(.sr-only)]:hidden"
+      />
+
     </Carousel>
   );
 }
