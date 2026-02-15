@@ -16,7 +16,7 @@ const Footer = () => {
           <h3 className="text-lg font-bold mb-4 text-center lg:text-left">
             Quick Links
           </h3>
-          <ul className="flex lg:flex-col lg:items-start gap-2 flex-wrap items-center justify-center lg:justify-start">
+          <ul className="grid grid-cols-2 gap-x-8 gap-y-2">
             <li>
               <Link href="/" className="hover:underline">
                 Home
@@ -33,19 +33,27 @@ const Footer = () => {
               </Link>
             </li>
             <li>
+              <Link href="/mentorship" className="hover:underline">
+                Mentorship
+              </Link>
+            </li>
+            <li>
+              <Link href="/gallery" className="hover:underline">
+                Gallery
+              </Link>
+            </li>
+            <li>
               <Link href="/resources" className="hover:underline">
                 Resources
               </Link>
             </li>
             <li>
-              <Link href="/membership" className="hover:underline">
-                Membership
-              </Link>
+              <Link href="tracker" className="hover:underline">BIG Tracker</Link>
             </li>
             <li>
-              <Link href="tracker">BIG Tracker</Link>
+              <Link href="/big-capital" className="hover:underline">BIG Capital</Link>
             </li>
-          </ul>
+        </ul>
         </div>
         <div className="text-center lg:text-left">
           <h3 className="text-lg font-bold mb-4">Contact Us</h3>
@@ -56,7 +64,7 @@ const Footer = () => {
             <p>WC2A 2AE</p>
           </div>
           <p>Email: business-investment@lsesu.org</p>
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center pt-2">
             <Socials />
           </div>
         </div>

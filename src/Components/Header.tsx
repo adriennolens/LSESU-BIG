@@ -9,6 +9,7 @@ import {
   trackerImage,
   galleryImage,
 } from "../../public";
+import marshallImage from "../../public/marshall.jpg";
 import Image from "next/image";
 import Navbar from "./Navbar";
 
@@ -38,6 +39,7 @@ const Header = () => {
           resourcesImage,
           galleryImage,
           trackerImage,
+          marshallImage,
         ].map((image, idx) => (
           <Image
             key={idx}

@@ -23,24 +23,25 @@ const SectorMember = ({
   name,
   role,
   linkedin,
+  textSize = "base",
 }: {
   imageLink: string;
   name: string;
   role: string;
   linkedin: string;
+  textSize?: "sm" | "base";
 }) => {
+  const nameClass = textSize === "sm" ? "text-lg lg:text-xl" : "text-xl lg:text-2xl";
+
   return (
-    <motion.div
-      className="my-4 flex flex-col items-center rounded-lg overflow-hidden text-white text-center w-max break:w-48"
-      variants={itemVariants}
-    >
+    <motion.div className="my-0 flex flex-col items-center rounded-lg overflow-hidden text-white text-center w-max break:w-48">
       <img
         src={imageLink}
         alt={name}
         className="rounded-full w-32 h-32 lg:w-36 lg:h-36 xl:w-40 xl:h-40 2xl:w-48 2xl:h-48 object-cover shadow-lg"
       />
       <div className="flex flex-col py-4 items-center">
-        <p className="text-xl lg:text-2xl flex items-center gap-2 justify-center font-semibold">
+        <p className={`${nameClass} flex items-center gap-2 justify-center font-semibold`}>
           {name}
           <Link
             href={linkedin || ""}
@@ -56,13 +57,17 @@ const SectorMember = ({
   );
 };
 
+
 export const Sector = ({
   sectorMembers,
   title,
+  textSize = "base",
 }: {
   sectorMembers: any;
   title: string;
+  textSize?: "sm" | "base";
 }) => {
+  const titleClass = textSize === "sm" ? "text-2xl lg:text-2xl" : "text-3xl lg:text-3xl";
   return (
     <motion.div
       className="bg-background text-white px-5 rounded-lg"
@@ -70,7 +75,7 @@ export const Sector = ({
       whileInView="visible"
       variants={containerVariants}
     >
-      <h2 className="text-3xl lg:text-3xl font-bold text-left my-10 pl-5">
+      <h2 className={`${titleClass} font-bold text-left my-10 pl-5`}>
         {title}
       </h2>
       <div className="flex flex-col break:flex-row items-center text-nowrap break:text-wrap w-full justify-evenly">
@@ -81,6 +86,7 @@ export const Sector = ({
             role={member.role}
             imageLink={member.imageLink}
             linkedin={member.linkedin}
+            textSize={textSize}
           />
         ))}
       </div>

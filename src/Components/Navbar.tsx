@@ -24,7 +24,7 @@ const MenuList = ({
   return (
     <Link
       href={href}
-      className="px-20 py-7 md:py-10 hover:bg-white hover:text-background font-bold flex items-center"
+      className="px-20 py-7 md:py-10 hover:bg-white hover:text-background font-bold flex items-center text-2xl xl:text-3xl"
       onClick={() => setOpenMenu(false)}
       onMouseEnter={() =>
         (setScroll && idx && setScroll(idx)) ||
@@ -45,15 +45,15 @@ const Menu = ({
   return (
     <aside>
       <div
-        className={`absolute overflow-x-hidden overflow-y-scroll bg-background top-0 h-screen right-0 transition-all duration-200 pt-32 ${
+        className={`absolute overflow-x-hidden overflow-y-scroll bg-background top-0 h-screen right-0 transition-all duration-200 pt-28 ${
           openMenu ? "w-screen lg:w-[500px]" : "w-0"
         }`}
       >
         <IoClose
           onClick={() => setOpenMenu(false)}
-          className="absolute right-20 top-16 text-5xl text-red-700 cursor-pointer"
+          className="absolute right-20 top-16 text-4xl text-red-700 cursor-pointer"
         />
-        <ul className="text-white grid grid-rows-6 w-full h-full duration-200 ">
+        <ul className="text-white grid auto-rows-fr h-full w-full">
           {[
             ["/", "Home"],
             ["/about", "About Us"],
@@ -62,6 +62,7 @@ const Menu = ({
             ["/resources", "Resources"],
             ["/gallery", "Gallery"],
             ["/tracker", "BIG Tracker"],
+            ["/big-capital", "BIG Capital"],
             
           ].map((item, idx) => (
             <MenuList

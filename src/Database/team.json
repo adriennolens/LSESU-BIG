@@ -1081,6 +1081,38 @@
           "role": "Focal Point"
         }
       ]
-    }
+    },
+    "bigCapitalHeads": {
+      "BIG Capital": [
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/salman.png",
+          "linkedin": "https://www.linkedin.com/in/salmanhaque7/",
+          "name": "Salman Haque",
+          "role": "Co-Head"
+        },
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/amelia.png",
+          "linkedin": "https://www.linkedin.com/in/amelia-drayson-563b69281/",
+          "name": "Amelia Drayson",
+          "role": "Co-Head"
+        },
+        {
+          "email": "",
+          "imageLink": "https://cdn-icons-png.flaticon.com/512/12225/12225935.png",
+          "linkedin": "https://www.linkedin.com/in/maximilian-holzwarth/",
+          "name": "Max Holzwarth",
+          "role": "Head of Investment Research"
+        },
+        {
+          "email": "",
+          "imageLink": "https://nywunuaiusbuadby.public.blob.vercel-storage.com/TeamPhotos/ProjectVenturePhotos/sid.png",
+          "linkedin": "https://www.linkedin.com/in/siddharth-sridhar2005/",
+          "name": "Sid Sridhar",
+          "role": "Head of Bootcamp Training"
+        }
+      ]
+    } 
   }
 }

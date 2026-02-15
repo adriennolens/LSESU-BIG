@@ -2,7 +2,7 @@ import React from "react";
 import { GalleryEventInterface } from "@/Types";
 import { Photo } from "@/Components/Gallery";
 import { gallery } from "@/Database";
-import { Navbar } from "@/Components";
+import { Footer, Navbar } from "@/Components";
 import Image from "next/image";
 import { galleryImage } from "../../../public";
 
@@ -34,6 +34,7 @@ const page = () => {
           ))}
         </div>
       </section>
+      <Footer />
     </main>
   );
 };

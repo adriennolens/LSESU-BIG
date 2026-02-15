@@ -20,7 +20,7 @@ const Resources = () => {
           alt="Resources Background"
         />
         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl lg:text-5xl font-bold text-center my-10 z-60 text-white">
-          RESOURCES
+          Resources
         </h1>
       </header>
       <section className="py-16 bg-white flex flex-col items-center justify-center">
