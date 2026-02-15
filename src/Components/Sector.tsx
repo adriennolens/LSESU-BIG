@@ -31,7 +31,7 @@ const SectorMember = ({
   linkedin: string;
   textSize?: "sm" | "base";
 }) => {
-  const nameClass = textSize === "sm" ? "text-lg lg:text-xl" : "text-xl lg:text-2xl";
+  const nameClass = textSize === "sm" ? "text-sm lg:text-xl" : "text-xl lg:text-2xl";
 
   return (
     <motion.div className="my-0 flex flex-col items-center rounded-lg overflow-hidden text-white text-center w-max break:w-48">
