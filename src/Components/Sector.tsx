@@ -67,7 +67,7 @@ export const Sector = ({
   title: string;
   textSize?: "sm" | "base";
 }) => {
-  const titleClass = textSize === "sm" ? "text-2xl lg:text-2xl" : "text-3xl lg:text-3xl";
+  const titleClass = textSize === "sm" ? "text-lg lg:text-2xl" : "text-3xl lg:text-3xl";
   return (
     <motion.div
       className="bg-background text-white px-5 rounded-lg"
