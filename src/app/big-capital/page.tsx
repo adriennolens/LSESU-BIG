@@ -184,8 +184,8 @@ const BigCapital = () => {
                             height={500}
                             className="rounded-lg w-full h-auto relative z-20"
                         />
-                        <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                            <div className="w-[2000px] h-[300px] lg:h-[500px] bg-white rotate-[-45deg] rounded-full" />
+                        <div className="md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+                            <div className="w-[2000px] h-[300px] lg:h-[400px] xl:h-[500px] bg-white md:rotate-[-45deg] rounded-full" />
                         </div>
                     </div>
 
