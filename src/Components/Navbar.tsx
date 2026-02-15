@@ -61,9 +61,8 @@ const Menu = ({
             ["/mentorship", "Mentorship"],
             ["/resources", "Resources"],
             ["/gallery", "Gallery"],
-            ["/tracker", "BIG Tracker"],
             ["/big-capital", "BIG Capital"],
-            
+            ["/tracker", "BIG Tracker"],
           ].map((item, idx) => (
             <MenuList
               href={item[0]}

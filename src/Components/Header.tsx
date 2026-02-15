@@ -38,8 +38,8 @@ const Header = () => {
           mentorshipImage,
           resourcesImage,
           galleryImage,
-          trackerImage,
           marshallImage,
+          trackerImage,
         ].map((image, idx) => (
           <Image
             key={idx}

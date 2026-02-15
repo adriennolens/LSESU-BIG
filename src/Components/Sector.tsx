@@ -75,7 +75,7 @@ export const Sector = ({
       whileInView="visible"
       variants={containerVariants}
     >
-      <h2 className={`${titleClass} font-bold text-left my-10 pl-5`}>
+      <h2 className={`${titleClass} font-bold text-left my-8 pl-5`}>
         {title}
       </h2>
       <div className="flex flex-col break:flex-row items-center text-nowrap break:text-wrap w-full justify-evenly">

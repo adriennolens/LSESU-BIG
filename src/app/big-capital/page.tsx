@@ -176,13 +176,13 @@ const BigCapital = () => {
                         </p>
                     </div>
 
-                    <div className="md:w-1/2 mt-10 md:mt-0 relative overflow-visible">
+                    <div className="md:w-1/2 mt-20 md:mt-0 relative overflow-visible">
                         <Image
                             src={ubsImage}
                             alt=""
-                            width={800}
-                            height={500}
-                            className="rounded-lg w-full h-auto relative z-20"
+                            width={500}
+                            height={200}
+                            className="rounded-lg max-w-[250px] md:max-w-[400px] lg:max-w-[500px] w-full h-auto relative z-20 mx-auto"
                         />
                         <div className="md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                             <div className="w-[2000px] h-[300px] lg:h-[400px] xl:h-[500px] bg-white md:rotate-[-45deg] rounded-full" />
