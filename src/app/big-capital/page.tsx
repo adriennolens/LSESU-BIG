@@ -73,7 +73,7 @@ const BigCapital = () => {
                 </p>
             </section>
 
-            <section className="w-full py-12 px-10 bg-background text-white">
+            <section className="w-full py-12 lg:px-10 bg-background text-white">
                 <div className="max-w-7xl mx-auto px-10 flex flex-col md:flex-row items-center gap-24">
                     
                     <div className="md:w-1/2 space-y-6">
@@ -161,7 +161,7 @@ const BigCapital = () => {
                 </div>
             </section>
             
-            <section className="w-full py-20 px-10 bg-background text-white overflow-hidden">
+            <section className="w-full py-20 lg:px-10 bg-background text-white overflow-hidden">
                 <div className="max-w-screen-2xl mx-auto px-10 flex flex-col md:flex-row items-center gap-12 md:gap-24">
         
                     <div className="md:w-1/2 space-y-6">
